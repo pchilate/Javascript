@@ -1,7 +1,7 @@
 console.log("Hi there");
 
 
-function asyncProm(){
+function asyncProme(){
     return new Promise(function(resolve){
         setTimeout(function(){
             resolve("Hi there 2")
@@ -11,7 +11,7 @@ function asyncProm(){
 
 
 async function main(){
-    const a = await asyncProm();
+    const a = await asyncProme();
     console.log(a)
     console.log("Hi there 3")
 }
